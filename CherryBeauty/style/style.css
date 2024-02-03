@@ -1,0 +1,143 @@
+body{
+    direction: rtl;
+    font-family:  Vazirmatn UI FD NL;
+    background-color: rgb(247, 194, 194);
+    padding: 3%;
+    margin: 3%;
+color: rgb(196, 11, 11);
+}
+
+*{
+    box-sizing: border-box;
+    @media(max-width: 600px)
+} 
+
+#header{
+    border-radius:25px;
+    border-style:solid;
+    border-color: rgb(187, 10, 10);
+    text-align: center;
+    padding:2%;
+    background-image: url(style\images\backImg.jpg);
+    background-repeat: no-repeat;
+    width:100%;
+    background-size: 60%;
+    padding: 8%;
+}
+/* #header {
+    content: "";
+    display: table;
+    clear: right;
+} */
+
+
+ section::after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+
+article::after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+h1{
+    color: rgb(194, 15, 15);
+}
+#services{
+    border-radius:25px;
+    border-style:solid;
+    border-color: rgb(187, 10, 10);
+    padding:3%;
+    overflow: auto;
+    float: right;
+    }
+.card{
+    border-radius:30px;
+    border-style: double;
+    border-color: rgb(187, 10, 10);
+    background-color: rgb(217, 144, 144);
+    text-align: center;
+    padding:2%;
+    font-size: larger;
+    color: rgb(150, 5, 5);
+
+}
+img{
+    border-radius:15px;
+}
+footer{
+    text-align: center;
+    border-radius:25px;
+    border-style:solid;
+    border-color: rgb(187, 10, 10);
+    padding: 3%;
+}
+address{
+    font-size: smaller;
+}
+button{
+    background-color: rgb(125, 7, 7);
+    color: rgb(241, 185, 185);
+    font-size: larger;
+    text-align: center;
+    
+}
+button:hover,
+a:hover{
+    opacity:0.7;
+    background-color: rgb(171, 57, 57);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 3px solid rgb(187, 10, 10);
+    text-align: center;
+    padding: 8px;
+    font-size:medium;
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgb(226, 152, 152);
+    font-size: medium;
+  }
+  #div{
+    float: left;
+  }
+  .navbar {
+    display: flex;
+    background-color: rgb(217, 144, 144);
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    margin-right: 18%;
+    width: 50%;
+    border-radius:25px;
+    border-style:solid;
+    border-color: rgb(187, 10, 10);
+}
+.navbar a {
+    color: rgb(137, 0, 0);
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+.navbar a:hover {
+    opacity:0.7;
+    background-color: rgb(180, 101, 101);
+}
+#form{
+    color:rgb(167, 2, 2) ;
+    text-align: center;
+}
+#info{
+    margin-right: 10%;
+}
